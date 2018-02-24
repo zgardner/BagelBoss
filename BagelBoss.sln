@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagelBoss.API", "BagelBoss.API\BagelBoss.API.csproj", "{C8C5105A-6D26-48CD-9F38-1DCC4B375764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagelBoss.Contracts", "BagelBoss.Contracts\BagelBoss.Contracts.csproj", "{B079D581-E23B-44DD-BB84-07BC96FBDA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagelBoss.Service", "BagelBoss.Service\BagelBoss.Service.csproj", "{C7698772-4A29-4A0C-B8B6-577A42EDD807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagelBoss.DAL", "BagelBoss.DAL\BagelBoss.DAL.csproj", "{2A34CD62-D161-4649-8047-775A3BF50EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagelBoss.Kiosk", "BagelBoss.Kiosk\BagelBoss.Kiosk.csproj", "{0706C017-A4FC-4822-9332-FF03D6771EF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C5105A-6D26-48CD-9F38-1DCC4B375764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C5105A-6D26-48CD-9F38-1DCC4B375764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C5105A-6D26-48CD-9F38-1DCC4B375764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C5105A-6D26-48CD-9F38-1DCC4B375764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B079D581-E23B-44DD-BB84-07BC96FBDA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B079D581-E23B-44DD-BB84-07BC96FBDA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B079D581-E23B-44DD-BB84-07BC96FBDA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B079D581-E23B-44DD-BB84-07BC96FBDA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7698772-4A29-4A0C-B8B6-577A42EDD807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7698772-4A29-4A0C-B8B6-577A42EDD807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7698772-4A29-4A0C-B8B6-577A42EDD807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7698772-4A29-4A0C-B8B6-577A42EDD807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A34CD62-D161-4649-8047-775A3BF50EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A34CD62-D161-4649-8047-775A3BF50EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A34CD62-D161-4649-8047-775A3BF50EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A34CD62-D161-4649-8047-775A3BF50EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0706C017-A4FC-4822-9332-FF03D6771EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0706C017-A4FC-4822-9332-FF03D6771EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0706C017-A4FC-4822-9332-FF03D6771EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0706C017-A4FC-4822-9332-FF03D6771EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {153F2C50-BB63-417A-9179-FE8BBC0CF7E9}
+	EndGlobalSection
+EndGlobal
