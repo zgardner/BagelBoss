@@ -9,14 +9,12 @@ namespace BagelBoss.DAL
     public class SqlServerDbConnectionProvider : IDbConnectionProvider
     {
         private readonly String locationName;
+        private readonly String connectionString;
 
         public SqlServerDbConnectionProvider(String locationName)
         {
             this.locationName = locationName;
-        }
 
-        public IDbConnection GetConnection()
-        {
             var connectionStrings = ConfigurationManager.ConnectionStrings;
             var connectionString = connectionStrings[locationName];
 
@@ -26,8 +24,12 @@ namespace BagelBoss.DAL
             }
 
             Debug.WriteLine(String.Format("Obtained a connection string for location {0}", locationName));
+            this.connectionString = connectionString.ConnectionString;
+        }
 
-            var connection = new SqlConnection(connectionString.ConnectionString);
+        public IDbConnection GetConnection()
+        {
+            var connection = new SqlConnection(connectionString);
 
             return connection;
         }
