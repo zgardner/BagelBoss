@@ -65,6 +65,7 @@ namespace BagelBoss.API.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IBagelService>().To<BagelService>().InRequestScope();
+            kernel.Bind<IBagelDAL>().To<BagelDAL>().InRequestScope();
             kernel.Bind<IDbConnectionProvider>().ToMethod(c => GetSqlDbConnection()).InRequestScope();
         }
 
